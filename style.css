@@ -1,0 +1,150 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+.h3{
+    text-transform: capitalize;
+    display: none;
+}
+:root{
+    --login-color: #0a0abe7a ;
+    --signup-color: #1d8c1da6;
+}
+button{
+    height: 50px;
+    width: 150px;
+    line-height: 2;
+    margin: 500px auto;
+    border: 1px solid;
+    display: block;
+    border-radius: 20px;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 12px;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+ .reg{
+ 
+    max-width: 600px;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+ }
+.login{
+    width: 100px;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 12px;
+    background-color: #0a0abe7a;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.signup{
+    background-color: #1d8c1da6;
+    border-color: #1d8c1da6;
+}
+
+form .active{
+    display: block;
+}
+.form.active{
+    display: none;
+}
+/* .signup section */
+
+
+
+
+.signu{
+  
+    height: 600px;
+    max-width: 800px;
+    width: 90%;
+    margin: 10px auto;
+}
+.email{
+    height: 100px;
+    max-width: 530px;
+    width: 90%;
+    margin: 10px auto ;
+    
+   
+}
+
+.names{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 120px;
+    max-width: 600px;
+    width: 90%;
+    margin: 2px auto;
+}
+.first{
+    margin: 10px auto;
+    height: 100px;
+    max-width: 250px;
+    
+}
+
+#signup input, #signup select{
+    margin-top: 10px;
+    height: 10px;
+    width: 90%;
+    outline: none;
+    border: 0;
+    border-bottom:  2px solid #1d8c1da6;
+    font-size: 18px;
+    padding: 15px;
+}
+
+
+
+
+
+/* .login secrtion */
+
+
+.logi{
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+   
+}
+ input,label, select{
+    margin: 1px;
+    display: block;
+    text-transform:capitalize ;
+}
+
+#login >input{
+    margin-left:50px ;
+    height: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    outline: none;
+    border: 0;
+    border-bottom:  2px solid #0a0abe7a;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.button{
+    background-color: #0a0abe7a;
+    border: #0a0abe7a;
+}
+.sgnbtn{
+   
+    background-color: #1d8c1da6;
+    border-color: #1d8c1da6;
+}
